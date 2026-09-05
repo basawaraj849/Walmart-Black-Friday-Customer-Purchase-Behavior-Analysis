@@ -1,5 +1,6 @@
 # Walmart-Black-Friday-Customer-Purchase-Behavior-Analysis
 EDA on 550K-row retail transaction dataset — data profiling, missing value analysis, and IQR-based outlier detection with business-driven treatment decisions.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SabGn8d4HfQ84bWotM9Yc2Vc7HPdSP4P)
 
 # Customer Purchase Pattern Analysis — Retail Transaction EDA
 
@@ -49,6 +50,4 @@ and inventory decisions."]
 - [Add 2-3 bullet insights from your actual analysis — e.g., purchase trends by 
   age group, category, city tier, etc.]
 
-## 📁 Repository Structure
-[![Open In Colab](https://colab.research.google.com/drive/1SabGn8d4HfQ84bWotM9Yc2Vc7HPdSP4P](YOUR_COLAB_LINK_HERE
-)
+
