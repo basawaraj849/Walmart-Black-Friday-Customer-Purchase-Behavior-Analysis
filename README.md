@@ -50,3 +50,5 @@ and inventory decisions."]
   age group, category, city tier, etc.]
 
 ## 📁 Repository Structure
+[![Open In Colab](https://colab.research.google.com/drive/1SabGn8d4HfQ84bWotM9Yc2Vc7HPdSP4P](YOUR_COLAB_LINK_HERE
+)
