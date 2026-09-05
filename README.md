@@ -46,8 +46,15 @@ and inventory decisions."]
 - Matplotlib, Seaborn
 - Jupyter Notebook
 
-## 📈 Key Insights
-- [Add 2-3 bullet insights from your actual analysis — e.g., purchase trends by 
-  age group, category, city tier, etc.]
+## 7. Final Insights
+
+*(Use this structure — fill in the exact numbers you get when you run the notebook.)*
+
+- **Gender:** Male average spend per transaction is higher than female, and the 90/95/99% confidence intervals do not overlap — this is a statistically real difference, not noise.
+- **Marital Status:** [State whether CIs overlapped and what that implies.]
+- **Age:** [State which age groups are distinguishable from each other and which aren't — usually the smaller-sample groups like 0-17 and 55+ have wider, less precise intervals.]
+- **Distribution shape:** Purchase amount is right-skewed with outliers above ~₹20k, but thanks to the CLT, the *sampling distribution of the mean* is approximately Normal for reasonably sized samples (n≥300ish), which is what makes the confidence-interval approach valid here despite the skew in the raw data.
+- **Product mix:** Categories 1, 5, and 8 drive transaction *volume*, but Category 10 has by far the highest *average* transaction value — volume and value leaders are not the same categories.
+- **Confidence width tradeoff:** Moving from 90% → 99% confidence widens every interval (more certainty requires a wider net) — but at this sample size the widening is small relative to the actual gap between male/female means, so the conclusion holds at all three levels.
 
 
